@@ -48,6 +48,23 @@ int main() {
 
         case '|':
             resultat = num1 | num2;
-            printf("%d | %
+            printf("%d | %d = %d\n", num1, num2, resultat);
+            break;
+
+        case '~':
+            // L'opérateur ~ ne nécessite qu'un seul opérande
+            resultat = ~num1;
+            printf("~%d = %d\n", num1, resultat);
+            break;
+
+        default:
+            printf("Opérateur inconnu !\n");
+            break;
+    }
+
+    return 0;
+}
+
+
 
 
