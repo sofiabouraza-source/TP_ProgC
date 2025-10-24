@@ -3,7 +3,7 @@
 int main() {
     int num1 = 10;   // Premier entier
     int num2 = 3;    // Deuxième entier
-    char op = '+';   // Opérateur choisi: '+', '-', '*', '/', '%', '&', '|', '~'
+    char op = '+';   // Opérateur : '+', '-', '*', '/', '%', '&', '|', '~'
 
     int resultat;    // Variable pour stocker le résultat
 
@@ -52,7 +52,6 @@ int main() {
             break;
 
         case '~':
-            // L'opérateur ~ ne nécessite qu'un seul opérande
             resultat = ~num1;
             printf("~%d = %d\n", num1, resultat);
             break;
@@ -64,7 +63,3 @@ int main() {
 
     return 0;
 }
-
-
-
-
